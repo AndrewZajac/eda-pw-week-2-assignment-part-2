@@ -156,9 +156,11 @@ if (mix === true) {
 // -- they are so we console.log 'throw away the food!'
 
 /*
+//FIX time should not be a constant, it should just use let instead.
 let temp = 40;
 const time = 4;
 
+//FIX this conditional is using the wrong compound, needs to use and instead of or.
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -169,10 +171,14 @@ if (temp > 39 || time >= 4) {
 // -- it is, so we console.log 'enter'.
 
 /*
+//FIX It never said for minAge to be a constant, just a variable so it should just use let.
 let age = 21;
 const minAge = 21;
 
+//FIX the variable age has to swap with the variable minAge, then have it be greater than or equal to.
 if(minAge <= age) {
+  //FIX There should not be an else command or anything within the command
+  //plus it should console log 'enter' instead of no entry
   console.log('no entry');
 } else {
   console.log('enter');
