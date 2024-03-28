@@ -45,10 +45,14 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+//We make a variable called secret
+// We make a variable called code and set it to 123 as a number.
+// then we write a conditional that states, if the value of code equals 123
+// then the variable of super gets set to 'super'
+//then the value of code gets set to code multiplied by the number 2
+//then we write another conditional that states, if code is greater than the number 250
+//then set secret to 'duper'
+//console log 'secret'
 
 //CODE
 /*
@@ -70,10 +74,16 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+//We create a variable called isStudent and set it to the boolean true
+//We create a variable called age and set it to the number 34
+//We create a variable called zip and set it to the number 55407
+//We then create a conditional which states, if isStudent equals true and zip is greater than 80000
+//then console log `You're a student on the West Coast!`
+//if the value of isStudent equals false or the value of age is less than 30
+//console log 'What are your hobbies?'
+//if the value of isStudent equals true
+//console log 'Welcome to Prime'
+//If none of those are true, console log 'How about the weather?'
 
 //CODE
 /*
@@ -130,11 +140,13 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+//FIX-colorOne needs to be 'blue' and colorTwo needs to be 'red'
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
+  //FIX colorTwo also needs to be set to 'purple'
   colorOne = 'purple';
 }
 */
