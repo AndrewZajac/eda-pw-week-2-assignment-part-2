@@ -29,7 +29,8 @@ if (number >= 2) {
 // We make a variable called name and set it to 'Dane' as a string.
 // Then we write a conditional that commands, if the value of name equals 'Mary'
 // console log 'Hi, Mary!'
-//if it's not true, console log 'How do you do?'
+// if it's not true, console log 'How do you do?'
+// since it is not true, it should put out, 'How do you do?'
 
 //CODE
 /*
@@ -53,6 +54,7 @@ if (name === 'Mary') {
 //then we write another conditional that states, if code is greater than the number 250
 //then set secret to 'duper'
 //console log 'secret'
+// it is equal to 123, so the value of secret is 'super'
 
 //CODE
 /*
@@ -84,6 +86,7 @@ console.log(secret)
 //if the value of isStudent equals true
 //console log 'Welcome to Prime'
 //If none of those are true, console log 'How about the weather?'
+//it should push out 'Welcome to Prime!'
 
 //CODE
 /*
@@ -177,8 +180,7 @@ const minAge = 21;
 
 //FIX the variable age has to swap with the variable minAge, then have it be greater than or equal to.
 if(minAge <= age) {
-  //FIX There should not be an else command or anything within the command
-  //plus it should console log 'enter' instead of no entry
+  //FIX swap the console logs so that enter is put out in the if and no entry is put out for the else.
   console.log('no entry');
 } else {
   console.log('enter');
